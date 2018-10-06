@@ -1,0 +1,27 @@
+<!-- 반응형 웹 : 웹의 크기에 따라 다르게 반응하는 웹을 의미합니다. CSS에서 반응형 웹을 구현하기 위한 개념이 미디어 쿼리입니다. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title></title>
+    <style>
+      div{
+        border:  5px solid green;
+        font-size: 50px;
+      }
+      /* 800px보다 화면이 커지면 나타나지 않게끔합니다. */
+      /* 미디어 쿼리를 사용하기 위해 @media를 사용합니다. */
+      @media(min-width:800px){
+        div{
+          display:none;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div>
+      Resposive
+    </div>
+  </body>
+</html>
