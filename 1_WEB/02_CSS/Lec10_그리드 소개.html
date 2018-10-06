@@ -1,0 +1,32 @@
+<!-- 목록과 본문이 나란히 오기 위해 사용하는 최신 방법이 Grid입니다. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    /*
+    1. 그리드를 사용하고 싶은 목록들이나 본문을 하나의 div로 묶어주고 id값을 지정합니다. 그리고 그 id를 호출합니다.
+    2. display: grid;를 설정합니다.
+    3. grid-template-columns:를 통해 목록과 본문의 크기를 조절합니다.
+    */
+    #grid{
+          border: 3px solid pink;
+          display: grid;
+          grid-template-columns: 150px 1fr
+        }
+
+    div{
+        border: 3px solid gray;
+        }
+
+    </style>
+  </head>
+  <body>
+    <!-- 디자인을 위해 어떠한 의미도 없는 태그를 사용해야 합니다. 이때 사용할 수 있는 태그는 div(division), span태그 입니다. 두 태그의 차이점은 div는 block element이고 span은 inline element입니다. -->
+    <div id = "grid">
+       <div>NAVIGATION</div>
+       <div>ARTICLE</div>
+     </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset = "utf-8">
+
+    <style>
+      a {
+        color : black;
+        text-decoration: none;
+        }
+      h1 {
+          font-size: 45px;
+          text-align: center;
+          border-bottom: 1px solid gray;
+          margin: 0px;
+          padding: 20px;
+          }
+
+      ol{
+          border-right: 1px solid gray;
+          width: 90px;
+          margin: 0px;
+          padding: 20px;
+          }
+
+      body{
+          margin: 0px;
+          }
+      #grid{
+          display: grid;
+          grid-template-columns: 150px 1fr
+
+      }
+      #grid ol{ /*grid에 있는 ol만을 선택합니다. (다른 ol과의 차별화)*/
+          padding-left: 33px;
+      }
+      #article{
+          padding-left: 25px;
+      }
+    </style>
+  </head>
+
+  <body>
+  <h1><a href = "data/index.html">WEB</a></h1>
+  <div id = "grid">
+    <ol>
+      <li><a href = "data/1.html">HTML</a></li>
+      <li><a href = "data/2.html">CSS</a></li>
+      <li><a href = "data/3.html" >JavaScript</a></li>
+    </ol>
+    <div id = "article">
+      <p>
+        <h2>CSS</h2>
+        <a href = https://www.w3schools.com/Css/ target = "_blank">Cascading Style Sheets (CSS)</a> is a style sheet language used for describing the presentation of a document written in a markup language like HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+      </p>
+    </div>
+  </div>
+  </body>
+</html>
