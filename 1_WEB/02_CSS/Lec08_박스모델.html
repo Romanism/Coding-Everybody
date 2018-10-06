@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title></title>
+  <style>
+  /* h1 태그가 웹페이지에서 얼마나 공간을 차지하고 있는지 확인하기 위해 그려보겠습니다. 확인하면  제목줄 전체가 h1이 적용된 것을 확인할 수 있는데 이를 Block level element 라고 합니다. */
+  /* block level element */
+  h1, a{ /* 똑같이 적용할 경우 콤마로 지정할 수 있네요*/
+
+    /* 같은 property면 한번에 적용할 수도 있습니다. */
+    border: 5px red solid;
+    padding: 10px; /*블록내 여백*/
+    margin: 10px; /*블록간 여백*/
+    width: 100px; /*폭을 조정*/
+  }
+  /* a 태그가 웹페이지에서 얼마나 공간을 차지하고 있는지 확인하기 위해 그려보겠습니다. 확인하면  적용된 크기만큼만 a 태그가 적용된 것을 확인할 수 있는데 이를 inline element 라고 합니다. */
+  /* inline element */
+  a{
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    /* blok과 inline은 설정으로 얼마든지 바꿀수 있습니다. */
+    /* display: block */
+  }
+
+  </style>
+</head>
+<body>
