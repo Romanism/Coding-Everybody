@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - html</title>
+  <meta charset = "utf-8">
+  <!-- html에게 CSS를 사용하겠다고 선언해야 합니다. <style></style>-->
+
+<!-- Q. 처음 보이는 글자색은 검은색, 방문 흔적이 있으면 회색, 현재 보고 있는 페이지 글자색은 빨간색으로 표시하고 싶다면 어떻게 하는게 좋을까요?? -->
+  <style>
+    /* 1. 전체 color에 검은색을 선언합니다. */
+    a {
+      color : black;
+      text-decoration: none;
+      }
+
+    /* 봤던 페이지의 html에 class를 선언하고 그 클래스의 색을 지정해주면 됩니다. (클래스 선언은 앞에 .을 붙입니다.)*/
+    .saw {
+          color : gray;
+          }
+
+    .active{
+            color : red;
+            }
+    h1 {
+        /* 폰트 크기나 정렬를 스스로 알아내기 위해서 구글링을 해봅니다. ex) css font size */
+        font-size: 45px;
+        text-align: center;
+        }
+  </style>
+</head>
+
+<body>
+<h1><a href = "data/index.html">WEB</a></h1>
+<ol>
+  <li><a href = "data/1.html" class = "saw">HTML</a></li>
+  <!-- a태그 안에 style 속성을 통해 css를 선언 -->
+  <li><a href = "data/2.html" class = "saw " id = "active">CSS</a></li>
+  <li><a href = "data/3.html" >JavaScript</a></li>
+</ol>
+</body>
+</html>
