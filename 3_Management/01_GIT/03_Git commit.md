@@ -9,8 +9,8 @@
 ### TIP
 
 - 깃을 처음 사용할 때 선언해야 할 것이 있습니다.
-- $ git config --global user.name <이름> : 내 컴퓨터에 내 깃 이름을 알려줍니다.
-- $ git config --global user.name <이메일> : 내 컴퓨터에 내 깃 이메일을 알려줍니다.
+- $ git config --global user.name <이름> : 내 컴퓨터에 내 깃 이름을 알려줍니다. (입력할 땐 괄호 제외)
+- $ git config --global user.name <이메일> : 내 컴퓨터에 내 깃 이메일을 알려줍니다. (입력할 땐 괄호 제외)
 - 깃을 처음 사용할 때 한번만 선언해주면 됩니다.
 
 - $ git log : commit을 볼 수 있습니다.
