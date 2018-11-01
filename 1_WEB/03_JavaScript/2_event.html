@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <!-- button을 만드는데 버튼 이름을 hi라고 하겠다는 의미입니다. -->
+    <!-- onclick 클래스엔 무조건 JavaScript 코드를 사용해야 합니다. -->
+    <!-- onclick을 이벤트라 하고, 클릭했을 때 그 JavaScript 코드를 실행하라는 의미입니다. -->
+    <!-- alert는 알림창을 뜨게하는 메소드 입니다. -->
+    <input type="button" value="클릭" onclick="alert('안녕하세요!')">
+    <!--onchange : 입력하고 입력창을 나가려고 할때 경고창이 생성됩니다. -->
+    <input type="text" onchange="alert('changed')">
+    <!-- onkeydown : Key를 눌렀을 때 경고창이 생성됩니다. -->
+    <input type="text" onkeydown="alert('key down!')">
+</body>
+
+</html>
